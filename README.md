@@ -7,4 +7,4 @@ Code Quarters is a hangout/livestream/weekly thingy where the community from [Co
 What we learn from this process, hopefully, will add to our understanding of our "core" languages which we are all trying to progressively master.
 
 ##Projects:
-####Code Quarter #1: EventImp (Ruby (Rails), MongoDB, ...)
+####Code Quarter #1: EventImp ( Rails, MongoDB, Angular (?) )
