@@ -1,4 +1,4 @@
-/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151016-875-gixpic.rb extconf.rb
+/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151017-27455-irrhfw.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -25,4 +25,4 @@ native.c:695:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclarat
 linking shared-object native.so
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 native.so ./.gem.20151016-875-1s7yjk9
+/usr/bin/install -c -m 0755 native.so ./.gem.20151017-27455-j8oc8l

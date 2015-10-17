@@ -27,6 +27,9 @@ build/
 /vendor/bundle
 /lib/bundler/man/
 
+## Local bundle config "gemsets"
+gemset
+
 # Rails #
 *.rbc
 capybara-*.html

@@ -1,4 +1,4 @@
-/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151016-875-wups00.rb extconf.rb
+/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151017-3672-1giajm3.rb extconf.rb
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
 checking for gzdopen() in -lz... yes
@@ -274,4 +274,4 @@ rmdir -p /home/imdaveho/Applications/codequarters/1-eventimp/gemset/ruby/2.2.0/g
 rm -rf /home/imdaveho/Applications/codequarters/1-eventimp/gemset/ruby/2.2.0/gems/nokogiri-1.6.6.2/ports
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20151016-875-123uzu6/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20151017-3672-3oaz8w/nokogiri

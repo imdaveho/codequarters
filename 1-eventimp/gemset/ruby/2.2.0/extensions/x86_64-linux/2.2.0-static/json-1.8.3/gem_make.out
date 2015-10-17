@@ -1,4 +1,4 @@
-/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151016-875-b5a44r.rb extconf.rb
+/home/imdaveho/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151017-3672-rhdf6k.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
