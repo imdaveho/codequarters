@@ -29,6 +29,7 @@ build/
 
 ## Local bundle config "gemsets"
 gemset
+.bundle
 
 # Rails #
 *.rbc
