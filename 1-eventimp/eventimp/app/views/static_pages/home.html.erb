@@ -2,10 +2,13 @@
 <h1>StaticPages#home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
 -->
-<% provide(:title, "Home") %>
-<h1>Event Imp</h1>
-<p>
-  This is the home page for 
-  <a href="#"/>Event Imp</a>
-  - an online social calendar.
-</p>
+<div class="center jumbotron">
+  <h1>Event Imp</h1>
+  <h2>
+    This is the home page for 
+    <a href="#"/>Event Imp</a>
+    - an online social calendar.
+  </h2>
+  
+  <%= link_to "Sign up!", '#', class: "btn btn-lg btn-primary" %>
+</div>

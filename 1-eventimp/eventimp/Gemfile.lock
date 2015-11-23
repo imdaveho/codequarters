@@ -39,6 +39,8 @@ GEM
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.2.0.0)
+      sass (~> 3.2)
     bson (3.2.6)
     builder (3.2.2)
     byebug (6.0.2)
@@ -110,6 +112,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
+    sass (3.4.19)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -136,6 +139,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.2.0.0)
   byebug
   jbuilder (~> 2.0)
   jquery-rails
@@ -143,6 +147,8 @@ DEPENDENCIES
   rails (= 4.2.4)
   sdoc (~> 0.4.0)
   spring
+  sprockets (~> 3.0)
+  sprockets-rails
   turbolinks
   web-console (~> 2.0)
 
