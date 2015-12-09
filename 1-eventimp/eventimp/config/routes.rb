@@ -5,10 +5,21 @@ Rails.application.routes.draw do
   #get 'static_pages/help'
   #get 'static_pages/about'
   #get 'static_pages/contact'
-  
+
   get 'help' => 'static_pages#help'
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
+  get 'signup' => 'users#new'
+
+  # uncomment below for Rails automated URLs
+  # resources :users
+
+  get 'users' => 'users#index'
+  get 'users/show/:id' => 'users#show', as: "user_show"
+  post 'users/create' => 'users#create'
+  get 'users/new' => 'users#new'
+  delete 'users/delete/:id' => 'users#destroy', as: "user_delete"
+  get 'users/custom' => 'users#custom'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
