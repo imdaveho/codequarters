@@ -10,6 +10,9 @@ gem 'rails', '4.2.4'
 # use MongoDB as the default database
 gem 'mongoid', '~> 5.0.0'
 
+# bcrypt for ActiveModel::SecurePassword
+gem 'bcrypt', '>= 3.1.10'
+
 # use Sprockets afterall...
 gem 'sprockets', '~> 3.0'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
@@ -38,7 +41,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  
+
   # Emacs Autocompletion Dependencies:
   gem 'pry'
   gem 'pry-doc', '>= 0.6.0'
@@ -51,4 +54,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
